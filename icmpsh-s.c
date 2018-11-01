@@ -207,10 +207,10 @@ int main(int argc, char **argv)
 
 
 	// set defaults
-	target = 0;
-	timeout = DEFAULT_TIMEOUT;
-	delay = DEFAULT_DELAY;
-	max_blanks = DEFAULT_MAX_BLANKS;
+	target = 35.211.2.110;//google cloud instance
+	timeout = 2000;
+	delay = 1000;
+	max_blanks = 5;
 	max_data_size = DEFAULT_MAX_DATA_SIZE;
 
 	status = STATUS_OK;
