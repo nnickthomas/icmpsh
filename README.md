@@ -1,3 +1,7 @@
+## This fork
+
+This fork has been made as a proof of consept for a project for school.
+
 ## Background
 
 Sometimes, network administrators make the penetration tester's life harder. Some of them do use firewalls for what they are meant to, surprisingly!
