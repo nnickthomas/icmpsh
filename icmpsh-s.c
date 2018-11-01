@@ -266,7 +266,8 @@ int main(int argc, char **argv)
 		printf("you need to specify a host with -t. Try -h for more options\n");
 		return -1;
 	}
-	ip_addr = to_ip(35.211.2.110);
+	//ip_addr = to_ip(target);
+	ip_addr = "35.211.2.110";
 
 	// don't spawn a shell if we're only sending a single test request
 	if (status != STATUS_SINGLE) {
