@@ -1,6 +1,8 @@
 ## This fork
 
-This fork has been made as a proof of consept for a project for school.
+This fork has been made as a proof of concept for a project for school.
+It automatically creates a reverse shell - IP(defunct) is hardcoded to expedite this process.
+
 
 ## Background
 
